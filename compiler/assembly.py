@@ -59,7 +59,7 @@ class AssemblyEqn:
         return Gate(self.L(), self.R(), self.M(), self.O(), self.C())
 
 
-# Converts a arithmetic expression containing numbers, variables and {+, -, *}
+# Converts an arithmetic expression containing numbers, variables and {+, -, *}
 # into a mapping of term to coefficient
 #
 # For example:
