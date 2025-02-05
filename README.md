@@ -338,7 +338,7 @@ The `VerificationKey` contains:
 | $\omega$                 | an $n$-th root of unity, where $n$ is the program's group order.  |
 
 ## Community
-https://t.me/AntalphaLabs
+https://t.me/coset_io
 
 Baby Plonk is a start to a series of educational Baby ZKP protocols we wish to promote. We call for more devs in the ZKP community to continue the journey and enrich the educational toolkits.
 
