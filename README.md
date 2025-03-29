@@ -69,15 +69,29 @@ This will take you through the workflow of setup, proof generation, and verifica
 The browser will popup and launch jupyter lab. You can start to explore!
 
 #### 3.3 Run with Graphical Interface
-We've added a graphical interface for easier interaction with the Baby Plonk system. To use it:
+We've added a graphical interface for easier interaction with the Baby Plonk system. The interface is built using **Tkinter**, Python's standard GUI library. To use it:
 
-`streamlit run main_ui.py`
+1. **Run the interface**
+   `python3 main_ui.py`
 
-This will launch a web-based interface where you can:
-- Generate and verify proofs interactively
-- Visualize the polynomial commitments
-- Step through the prover and verifier rounds
-- Explore example programs with live feedback
+2. **Features**
+   - **Circuit Visualization**
+     - View a graphical representation of the arithmetic circuit
+     - Inspect wire connections and gate operations
+     - Highlight the flow of values through the circuit
+   - **Interactive Proof Generation**
+     - Step through each round of the Plonk protocol
+     - See polynomial commitments and evaluations in real-time
+   - **Verification Process**
+     - Watch the verification steps unfold
+     - Get immediate feedback on proof validity
+   - **Example Exploration**
+     - Load pre-built example circuits
+     - Modify constraints and witness values
+     - Observe changes in the circuit and proof
+
+3. **Requirements**
+   - Tkinter is included with Python's standard library, so no additional installation is required.
 
 ### Compiler
 #### Program
